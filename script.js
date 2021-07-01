@@ -93,6 +93,7 @@ function move() {
         generateFood();
         updateSpeed(-10);
         score++;
+        document.getElementById("sp").innerHTML = score;
     } else
         turnOffCell(snake.pop());
 }
