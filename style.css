@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
+    background-image: linear-gradient(to left, #171717, #1f1f1f, #272727, #2f2f2f, #383838, #3b3941, #3e3a4a, #423b52, #43335b, #462962, #4b1c67, #52006a);
 }
 
 #board {
@@ -18,6 +18,12 @@ body {
     border: 5px solid brown;
     display: flex;
     flex-direction: column;
-    /* background-color: white; */
+}
+.score{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: rgb(186, 219, 219);
+    text-align: center;
+    font-weight: bold;
 }
 
